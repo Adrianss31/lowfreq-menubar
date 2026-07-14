@@ -9,7 +9,20 @@ per più dispositivi contemporaneamente. Interroga la dashboard LAN dei telefoni
 Python 3: il renderer della barra e la finestra di configurazione sono
 incorporati.
 
-## Installazione
+## Installazione lampo (un comando)
+
+Con SwiftBar già installato e la sua cartella plugin su `~/Documents/SwiftBar`:
+
+```sh
+mkdir -p ~/Documents/SwiftBar && \
+curl -fsSL https://raw.githubusercontent.com/Adrianss31/lowfreq-menubar/main/lowfreq.10s.py \
+  -o ~/Documents/SwiftBar/lowfreq.10s.py && chmod +x ~/Documents/SwiftBar/lowfreq.10s.py
+```
+
+Poi apri SwiftBar e usa "configura…". Tutto il resto qui sotto è la versione
+per passi.
+
+## Installazione (per passi)
 
 1. Installa [SwiftBar](https://github.com/swiftbar/SwiftBar) (una volta sola):
    ```sh
